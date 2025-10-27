@@ -1,0 +1,24 @@
+{
+  "name": "backend1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hunt-007/backend1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hunt-007/backend1/issues"
+  },
+  "homepage": "https://github.com/Hunt-007/backend1#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
