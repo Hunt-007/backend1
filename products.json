@@ -18,9 +18,22 @@
     "title": "Mouse Logitech M170",
     "description": "Mouse inalámbrico con conexión USB",
     "code": "MS001",
+    "price": 15990,
+    "status": true,
+    "stock": 40,
+    "category": "Periféricos",
+    "thumbnails": [
+      "img/mouse1.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Mouse Redragon Kumara",
+    "description": "Mouse blue",
+    "code": "KB025",
     "price": 12990,
     "status": true,
-    "stock": 20,
+    "stock": 50,
     "category": "Periféricos",
     "thumbnails": [
       "img/mouse1.jpg"

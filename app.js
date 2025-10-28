@@ -29,6 +29,7 @@ app.get("/api/products/:pid", (req, res) => {
 //agrega producto en body tipo json
 app.post("/api/products", (req, res) => {
   const data = fs.existsSync(productsFile) ? JSON.parse(fs.readFileSync(productsFile)) : [];
+  //crea id autoincremental
   const newId = data.length > 0 ? data[data.length - 1].id + 1 : 1;
 
   const newProduct = {
